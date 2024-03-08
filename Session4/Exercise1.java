@@ -7,7 +7,7 @@ public class Exercise1 {
 
     public int sumaArrayNumeros() {
        int result = 0;
-       for (int i = 1; i <= arrayvalues3.length; i++){
+       for (int i = 0; i < arrayvalues3.length; i++){
          result += arrayvalues3[i];
        }
        return result;
